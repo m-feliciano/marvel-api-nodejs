@@ -81,7 +81,7 @@ exports.register = (req, res) => {
                 console.log(error);
             } else {
                 console.log(results);
-                return res.status(200).redirect('/views/welcome.hbs')
+                return res.status(200).redirect('/views/index.hbs')
                 
                 }
             })

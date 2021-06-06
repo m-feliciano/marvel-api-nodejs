@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res)  => {
-    res.render('register');
+    res.render('login');
 });
 
 router.get('/views/index.hbs', (req, res)  => {
@@ -20,6 +20,10 @@ router.get('/views/characters.hbs', (req, res)  => {
 
 router.get('/views/comics.hbs', (req, res)  => {
     res.render('comics')
+});
+
+router.get('/views/register.hbs', (req, res)  => {
+    res.render('register');
 });
 
 module.exports = router;

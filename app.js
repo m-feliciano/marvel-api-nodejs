@@ -4,6 +4,7 @@ const mysql = require('mysql2');
 const dotenv = require('dotenv');
 const path = require('path');
 const cookieParser = require('cookie-parser');
+const Tables = require('./infra/tables')
 
 dotenv.config({path: './.env'});
 
@@ -31,7 +32,8 @@ connection.connect((err) => {
   if (err){
     console.log(err)
   } else{ 
-  console.log('Conectado ao MySQL...');
+    console.log('db conected...')
+    Tables.init(connection)
   }
 });
 
@@ -40,5 +42,5 @@ app.use('/', require('./router/pages'));
 app.use('/auth', require('./router/auth'));
 
 app.listen(5501, () => {
-  console.log("Servidor iniciado na porta 5501")
+  console.log("Server on port 5501")
 })

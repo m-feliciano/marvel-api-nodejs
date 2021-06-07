@@ -1,11 +1,12 @@
 CREATE TABLE IF NOT EXISTS user(
-    idUser INT,
-    user_name VARCHAR( 20) NOT NULL UNIQUE, 
-    user_email VARCHAR(40) NOT NULL UNIQUE, 
-    user_password VARCHAR(100) NOT NULL, 
-    user_type enum('user','root') DEFAULT 'user', 
-    user_obs text, 
-    user_inserted_data TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP 
+    idUser INT NOT NULL AUTO_INCREMENT, 
+    usu_name VARCHAR( 20) NOT NULL UNIQUE, 
+    usu_email VARCHAR(40) NOT NULL UNIQUE, 
+    usu_key VARCHAR(100) NOT NULL, 
+    usu_type enum('user','root') DEFAULT 'user', 
+    usu_obs text, 
+    user_inserted_data TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP, 
+    PRIMARY KEY(idUser)
 );
 
 ALTER TABLE user

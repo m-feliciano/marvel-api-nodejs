@@ -34,11 +34,11 @@
   <div class="container-fluid">
             <h1 class="display-6" style="color: rgb(0, 0, 0); text-align: center;">Comics</h1>
 
-            <div class="card border-dark mb-3" style="max-width: 18rem;">
-                <div class="card-header">Header</div>
-                <div class="card-body text-dark">
-                  <h5 class="card-title">Dark card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">Comics</div>
+                <div class="card-body text-white">
+                  <h5 class="card-title">Everybody likes stories</h5>
+                  <p class="card-text">Explore a comprehensive list of every story in the Marvel Universe, add favorites and see what's new every day.</p>
                 </div>
               </div>    
             
@@ -48,7 +48,7 @@
         <script>
             const comics = {
             render: () => {
-            const  urlAPI = 'https://gateway.marvel.com/v1/public/comics?&orderBy=focDate&limit=20&ts=1&apikey=b4a0c72eb92550fcb24136e1db3c4433&hash=55b6f783ffef154f9430e13e417583c5'; 
+            const  urlAPI = 'https://gateway.marvel.com/v1/public/comics?&orderBy=focDate&limit=50&ts=1&apikey=b4a0c72eb92550fcb24136e1db3c4433&hash=55b6f783ffef154f9430e13e417583c5'; 
             const container2 = document.querySelector('#marvel-row');
             let contentHTML = '';
 
@@ -57,7 +57,7 @@
                     let urlHero  = hero.urls[0].url;
                     contentHTML += `
                     
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 16rem;">
                     <img class="card-img-top " 
                     <a href="${urlHero}" target="_blank">
                     <img src="${hero.thumbnail.path}.${hero.thumbnail.extension}"
@@ -65,7 +65,7 @@
                     
                     </a>
                         <div> 
-                            <p><a href="#" class="btn bg-inverse" role="button">Like</a></p>
+                            <button class="btn btn-primary btn-dark">Like button</button>
                             </div>
                         <div class="card-body"> 
                             <h5 class="card-title" style="color: black;">${hero.title}</h5>

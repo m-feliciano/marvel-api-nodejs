@@ -46,7 +46,7 @@ bash
 
 ---
 
-# Executando o servidor mysql
+## Executando o servidor mysql
 
 - Baixe o mysql/xampp
 - Execute o servidor 
@@ -54,7 +54,7 @@ bash
 
 ---
 
-# Executando a aplicação
+## Executando a aplicação
 // Iniciar a aplicação
 
 
@@ -62,8 +62,6 @@ bash
     
     
     $ npm start
-'''
+
 
 // Inicie o browser com o link localhost:5501
-
----

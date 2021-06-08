@@ -1,7 +1,7 @@
 # marvel-api-nodejs 
 
 <h1>
-    <a href="minhaprimeiraapi.webhop.me"> Acesse a demostração</a>
+    <a href="http://minhaprimeiraapi.webhop.me"> Acesse a demostração</a>
 </h1>
 ---
 
@@ -55,14 +55,16 @@ O projeto **marvel-api-nodejs** foi desenvolvido para consumo da API Marvel disp
 ---
 
 # Executando a aplicação
+//iniciar a aplicação
 
 ''' 
     bash
     
-    //iniciar a aplicação
+    
     $ npm start
 
 '''
+
 // Aplicação irá executar no host local e porta 5501
 //Inicie o browser com o link localhost:5501
 

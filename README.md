@@ -36,7 +36,7 @@ O projeto **marvel-api-nodejs** foi desenvolvido para consumo da API Marvel disp
 
 bash
 
-// clonar o repositório
+// crie um clone do repositório
 
     
     $ git clone https://github.com/m-feliciano/marvel-api-nodejs

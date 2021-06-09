@@ -1,7 +1,7 @@
 # marvel-api-nodejs 
 
 <h1>
-    <a href="http://minhaprimeiraapi.webhop.me"> Acesse a demostração</a>
+    <a href="http://minhaprimeiraapi.webhop.me"> Demostração</a>
 </h1>
 
 - [Sobre](#-Sobre)
@@ -12,7 +12,7 @@
 
 ---
 
-## 📝Sobre
+## Sobre
 
 O projeto **marvel-api-nodejs** foi desenvolvido para consumo da API Marvel disponivel em https://developer.marvel.com/. 
 
@@ -46,7 +46,7 @@ bash
 
 ---
 
-## Executando o servidor mysql
+## Executando o servidor mysql 
 
 - Baixe o mysql/xampp
 - Execute o servidor 
@@ -55,6 +55,7 @@ bash
 ---
 
 ## Executando a aplicação
+
 // Iniciar a aplicação
 
 

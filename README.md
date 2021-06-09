@@ -4,6 +4,10 @@
     <a href="http://minhaprimeiraapi.webhop.me"> Demostração</a>
 </h1>
 
+---
+
+## Indice
+
 - [Sobre](#-Sobre)
 - [Tecnologias utilizadas](#-Tecnologias-utilizadas)
 - [Como baixar o projeto](#-Como-baixar-o-projeto)
@@ -12,7 +16,7 @@
 
 ---
 
-## Sobre
+## 📝 Sobre
 
 O projeto **marvel-api-nodejs** foi desenvolvido para consumo da API Marvel disponivel em https://developer.marvel.com/. 
 
@@ -28,7 +32,7 @@ O projeto **marvel-api-nodejs** foi desenvolvido para consumo da API Marvel disp
 
 ---
 
-## Como baixar o projeto
+## 📦 Como baixar o projeto
 
 bash
 
@@ -54,7 +58,7 @@ bash
 
 ---
 
-## Executando a aplicação
+## 🎮 Executando a aplicação
 
 // Iniciar a aplicação
 

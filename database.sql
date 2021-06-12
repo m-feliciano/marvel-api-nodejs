@@ -21,18 +21,13 @@ CREATE TABLE characters(
 	char_name VARCHAR?(30) NOT NULL,
 	char_description TEXT,
 	char_thumbnail VARCHAR(100),
-	char_url VARCHAR(255),
-	char_modified TIMESTAMP,
-	idComics INT
+	char_url VARCHAR(255)
 );
 
 CREATE TABLE comics(
 	com_id INT NOT NULL AUTO_INCREMENT,
-    com_digitalId INT,
     com_title VARCHAR(100) NOT NULL,
-    com_issueNumber INT,
     com_description TEXT,
-    com_url VARCHAR(255),
-    com_modified TIMESTAMP,
-    com_idComics INT
+    char_thumbnail VARCHAR(100),
+    com_url VARCHAR(255)
 );

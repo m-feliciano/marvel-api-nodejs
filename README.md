@@ -43,11 +43,7 @@ bash
     $ cd marvel-api-nodejs
 
     // Intalar as dependências
-    $ npm install nodemon
-    $ npm install  express
-    $ npm install mysql
-
-
+    $ npm install
 ---
 
 ## Executando o servidor mysql 
@@ -62,11 +58,9 @@ bash
 
 // Iniciar a aplicação
 
-
 bash
     
     
     $ npm start
-
 
 // Inicie o browser com o link localhost:5501
